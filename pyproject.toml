@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tsudopy-spacetraders"
+version = "0.1.0"
+description = ""
+authors = ["Chris <tsudonymn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tsudopy_spacetraders"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+SpacePyTraders = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
